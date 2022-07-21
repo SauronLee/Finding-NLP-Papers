@@ -1,6 +1,6 @@
 # NLP-Paper-Recommendation
-##Introduction
-###Automatic Keyphrase Extraction
+## Introduction
+### Automatic Keyphrase Extraction
 "ml6team/keyphrase-extraction-kbir-inspec"
 ```python
 from transformers import (
@@ -42,4 +42,19 @@ output:
 >>  'sememe knowledge base']
 ```
 
+### Convert a question into its declarative
+```python
+from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
+
+# Load xlm-roberta-base
+print('Loading xlm-roberta-base >>>>>>>>')
+xlm_roberta_base_unmasker = pipeline('fill-mask', model='xlm-roberta-base')
+
+# Load xlm-roberta-base-squad2
+model_name = "deepset/xlm-roberta-base-squad2"
+nlp = pipeline('question-answering', model=model_name, tokenizer=model_name)
+model = AutoModelForQuestionAnswering.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+```
 
