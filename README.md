@@ -68,5 +68,14 @@ nlp = pipeline('question-answering', model=model_name, tokenizer=model_name)
 model = AutoModelForQuestionAnswering.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
+getXlmRobertaTop1(xlm_roberta_base_unmasker("The <mask> that are defined as the atomic units to describe the semantic meaning of concepts ."))
+
+output:
+>> <terms>
 ```
 
+### 
+ 
+```python
+
+```
