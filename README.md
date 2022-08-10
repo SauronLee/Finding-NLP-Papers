@@ -1,6 +1,71 @@
-# Finding-NLP-Papers
+<p align="center">
+    <br>
+    <img src="./logo_name.png" width="400"/>
+    <br>
+<p>
+<p align="center">
+    <a href="https://colab.research.google.com/drive/1mbWcOZ5l97H5eSrFSH4dOUZVtsD5Sen4?usp=sharing">
+        <img alt="colab" src="https://colab.research.google.com/assets/colab-badge.svg">
+    </a>
+    <a href="https://huggingface.co/SauronLee/BiLSTM_Finding_NLP_Papers">
+        <img alt="inference" src="https://img.shields.io/badge/huggingface-inference-yellow">
+    </a>
+    <a>
+        <img alt="build" src="https://img.shields.io/badge/build-passing-red">
+    </a>
+    <a>
+        <img alt="license" src="https://img.shields.io/badge/license-MIT-green">
+    </a>
+    <a>
+        <img alt="license" src="https://img.shields.io/badge/license-MIT-green">
+    </a>
+</p>
+
+## Requirements
+
+- tqdm
+- transformers
+- nltk
+- dateparser
+- scikit-learn
+- fuzzywuzzy
+- sentencepiece
+- stanza
+
 ## Introduction
+```python
+import json
+import os
+import random
+from tqdm import tqdm
+import numpy as np
+import argparse
+from pretrained_models import T5_QG
+import stanza
+import nltk
+from sklearn.metrics.pairwise import cosine_similarity
+from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
+from config import *
+from pretrained_models import *
+from utils import *
+xlm_roberta_base_unmasker = pipeline('fill-mask', model='xlm-roberta-base')
+nltk.download('punkt')
+```
+### Create \{ jargon : defination }
+<p align="center">
+    <br>
+    <img src="./defination_part.png" width="400"/>
+    <br>
+<p>
+### Building Schema
+<p align="center">
+    <br>
+    <img src="./schema.png" width="400"/>
+    <br>
+<p>
+
 ### Automatic Keyphrase Extraction
+
 "ml6team/keyphrase-extraction-kbir-inspec"
 ```python
 from transformers import (
@@ -74,8 +139,8 @@ output:
 >> <terms>
 ```
 
-### 
- 
-```python
+## Train the paper embeddings by TransE
+* install useing https://github.com/thunlp/OpenKE
 
-```
+## Train the paper embeddings by LINE
+* install useing https://github.com/tangjianpku/LINE
