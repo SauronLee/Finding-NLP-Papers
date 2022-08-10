@@ -1,6 +1,6 @@
 <p align="center">
     <br>
-    <img src="./logo_name.png" width="800"/>
+    <img src="./logo_name.png" width="1000"/>
     <br>
 <p>
 <p align="center">
@@ -54,13 +54,13 @@ nltk.download('punkt')
 ### Create \{ jargon : defination }
 <p align="center">
     <br>
-    <img src="./defination_part.png" width="400"/>
+    <img src="./defination_part.png" width="1000"/>
     <br>
 <p>
 ### Building Schema
 <p align="center">
     <br>
-    <img src="./schema.png" width="400"/>
+    <img src="./schema.png" width="1000"/>
     <br>
 <p>
 
