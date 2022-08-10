@@ -147,6 +147,7 @@ output:
 ## Train the paper embeddings by LINE
 * install useing https://github.com/tangjianpku/LINE
     
+# Citation
 ```   
 @article{,
   title={Finding NLP Papers by Asking a Multi-hop Question},
