@@ -53,9 +53,14 @@ from utils import *
 xlm_roberta_base_unmasker = pipeline('fill-mask', model='xlm-roberta-base')
 nltk.download('punkt')
 ```
-### Big Size Data
+### Large Size Data
 
-* ![enwiki-20190320-words-frequency.txt](https://drive.google.com/file/d/1juejElmlZ3HBI73A775WH9eZolPjgOIy/view?usp=sharing)
+* [enwiki-20190320-words-frequency.txt (26.2MB)](https://drive.google.com/file/d/1juejElmlZ3HBI73A775WH9eZolPjgOIy/view?usp=sharing)
+* [glove.6B.300d.txt (989.9MB)](https://drive.google.com/file/d/1Vc1pPVozq9eBD5NKDtCBZN-q7wpn-fzW/view?usp=sharing)
+* [paper_data.npy (799.5MB)](https://drive.google.com/file/d/1QpLuhCHqbpnk2mNuKnXjhftXD0qul1ej/view?usp=sharing)
+* [paper_qa_deduplication_dict_train_index.json (56.6MB)](https://drive.google.com/file/d/1-jKcrOY1QdJfjostuSDTNnKhSEQUoy26/view?usp=sharing)
+* [paper_qa_deduplication_dict_train.json (84.7MB)](https://drive.google.com/file/d/1hrp_m-9mC--wTCNtoKiViySyb8oa055i/view?usp=sharing)
+* [papers_embedding_inuse.json (85.1MB)](https://drive.google.com/file/d/103JS7_Nx0-2Gfhs77yp4g_a1Z8E4bjOw/view?usp=sharing)
 
 ### Create \{ jargon : defination }
 <p align="center">
