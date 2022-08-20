@@ -68,6 +68,7 @@ nltk.download('punkt')
     <img src="./defination_part.png" width="1000"/>
     <br>
 <p>
+
 ### Building Schema
 <p align="center">
     <br>
