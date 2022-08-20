@@ -53,6 +53,10 @@ from utils import *
 xlm_roberta_base_unmasker = pipeline('fill-mask', model='xlm-roberta-base')
 nltk.download('punkt')
 ```
+### Big Size Data
+
+* ![enwiki-20190320-words-frequency.txt](https://drive.google.com/file/d/1juejElmlZ3HBI73A775WH9eZolPjgOIy/view?usp=sharing)
+
 ### Create \{ jargon : defination }
 <p align="center">
     <br>
