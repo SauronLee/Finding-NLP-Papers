@@ -16,9 +16,6 @@
     <a>
         <img alt="license" src="https://img.shields.io/badge/license-MIT-green">
     </a>
-    <a>
-        <img alt="license" src="https://img.shields.io/badge/license-MIT-green">
-    </a>
 </p>
 
 This repository provides the source codes of "Finding NLP Papers by Asking a Multi-hop Question" published in Special Interest Group on Spoken Language Understanding and Dialogue Processing (SIG-SLUD) 2022
